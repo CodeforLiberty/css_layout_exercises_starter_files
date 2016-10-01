@@ -1,1 +1,17 @@
+nav{position:fixed; background-color:grey;width:100%;
+height:10%; z-index:100; }
+img{ border-radius:80px; position:relative; left:100px;
+height:60px; top:10px; }
+li{list-style-type: none;}
+li:nth-child(1) 
+{ position:absolute; left:200px;top:25px; }
+li:nth-child(2){ position:absolute; left:310px; top:25px; }
+li:nth-child(3){ position:absolute; left:420px; top:25px; }
+li::after{content:" | ";}
 
+
+  .contain{ background-image:url("../images/outerspace_landscape.jpeg") ; 
+  min-width:1020px; min-height:880px; position:relative;}
+  .green-dot{ width:600px; height:300px; border:10px dotted green; position:absolute; left:250px; margin-top:200px;  }
+.dog{min-width: 200px; min-height: 200px; background-image:url("../images/spacedog.png");position: absolute;  top:200px; right:-50px;}
+.cat{min-width:200px; min-height:200px; background-image: url("../images/spacecat.png"); position:absolute;  bottom:200px; left:-60px;}
